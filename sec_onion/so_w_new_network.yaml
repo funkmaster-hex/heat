@@ -13,7 +13,7 @@ parameters:
     default: cy.mega
   image:
     type: string
-    default: "Ubuntu 14.04"
+    default: "Ubuntu 16.04"
   username:
     type: string
     default: user
