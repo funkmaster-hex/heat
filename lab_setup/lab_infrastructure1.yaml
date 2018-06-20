@@ -95,7 +95,7 @@ resources:
       flavor: cy.large
       networks: 
         - network: { get_resource: stu-network }
-          fixed_ip: 10.0.0.10
+          fixed_ip: 172.16.0.10
       user_data_format: RAW
       user_data: { get_resource: win_server_config }
 
@@ -163,7 +163,7 @@ resources:
       flavor: cy.large
       networks: 
         - network: { get_resource: stu-network }
-          fixed_ip: 10.0.0.25
+          fixed_ip: 172.16.0.25
       user_data_format: RAW
       user_data: { get_resource: win_server_config }
 
@@ -197,7 +197,7 @@ resources:
       flavor: cy.large
       networks: 
         - network: { get_resource: stu-network }
-          fixed_ip: 10.0.0.30
+          fixed_ip: 172.16.0.30
       user_data_format: RAW
       user_data: { get_resource: win_host_config }
 
@@ -214,7 +214,7 @@ resources:
       flavor: cy.large
       networks: 
         - network: { get_resource: stu-network }
-          fixed_ip: 10.0.0.31
+          fixed_ip: 172.16.0.31
       user_data_format: RAW
       user_data: { get_resource: win_host_config }
 
@@ -249,7 +249,7 @@ resources:
       flavor: cy.large
       networks: 
         - network: { get_resource: stu-network }
-          fixed_ip: 10.0.0.33
+          fixed_ip: 172.16.0.33
       user_data_format: RAW
       user_data: { get_resource: lin_host_config }
 
