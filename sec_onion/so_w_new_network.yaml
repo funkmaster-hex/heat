@@ -86,33 +86,6 @@ resources:
             #Install the securityonion-all metapackage:
             apt-get -y install securityonion-all syslog-ng-core
             apt-get -y install securityonion-elastic
-            #INSTALL ALL THE TOOLS!!!!!!!!!!!
-            apt install argus-server
-            apt install loki
-            apt install bro
-            apt install chaosreader
-            apt install daemonlogger
-            apt install driftnet
-            apt install dsniff
-            apt install hunt
-            apt install labrea
-            apt install netsed
-            apt install netsniff-ng
-            apt install ngrep
-            apt install p0f
-            apt install scapy
-            apt install sniffit
-            apt install snort
-            apt install sslsniff
-            apt install suricata
-            apt install tcpdump
-            apt install tcpick
-            apt install tcpreplay
-            apt install tcpslice
-            apt install tcpstat
-            apt install tcpxtract
-            apt install tshark
-            apt install wireshark
             so-elastic-download
             so-elastic-configure
             shutdown -r now
